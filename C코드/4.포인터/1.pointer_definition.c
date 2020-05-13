@@ -12,6 +12,5 @@ void main(int arc, char **argv){
     char char_value = 'A';
     char *ptr_char = &char_value;
 
-    *ptr_char = 'X';
-    printf("%c",char_value);
+    *ptr_char = 'X'; // char_value에 X로 재정의 된다.
 }
